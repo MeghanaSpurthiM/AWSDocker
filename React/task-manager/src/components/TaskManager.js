@@ -8,7 +8,7 @@ const TaskManager = () => {
   const [formData, setFormData] = useState({ id: '', name: '', email: '', age: '', course: '' });
   const [isEditing, setIsEditing] = useState(false);
 
-  const API_URL = 'http://localhost:3000/api';
+  const API_URL = 'http://18.188.211.167:3000/api';
   const navigate = useNavigate(); // Initialize useNavigate for navigation
 
   useEffect(() => {
